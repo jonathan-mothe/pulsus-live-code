@@ -1,10 +1,7 @@
-from flask import Flask, jsonify, Response, request # Importa e cria o app (até linha 4)
+from flask import Flask, Response, request
 
 from models import *
 import json
-
-
-#app = Flask(__name__)
 
 
 @app.route('/devices')
